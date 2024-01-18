@@ -1,0 +1,49 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.TitleBox {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.TitleBox>h1 {
+    color: white;
+    text-align: left;
+}
+
+.TitleBox>button {
+    color: white;
+}
+
+.TaskBoxContainer {
+    display: flex;
+    flex-direction: column;
+    width: '100%';
+    height: 80%;
+    overflow-y: auto;
+}
+
+.TaskBoxContainer>button {
+    display: flex;
+    gap: 1;
+    justify-content: flex-start;
+    align-items: center;
+    color: #81d4fa;
+    border-radius: 10;
+
+    &:hover {
+        color: #4285f4;
+        background-color: darkcyan;
+    }
+}
